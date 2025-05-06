@@ -56,9 +56,11 @@ Your Flask app exposes the following endpoint:
 
 ## 📁 Project Structure
 
-
 ```plaintext
 /bitnet-flask-app
-├── app.py              # Flask application with chat endpoint
-├── requirements.txt    # Required Python packages
-└── README.md           # Project documentation
+├── templates/
+│   └── chat.html         # Template for the chat UI
+├── app.py                # Flask application with chat endpoint
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
+
